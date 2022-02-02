@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C106B6827A9EF1C007C8A67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C106B6727A9EF1C007C8A67 /* MainView.swift */; };
 		3CF3C21D27A9B8BC0072B757 /* PersonnalInstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C21C27A9B8BC0072B757 /* PersonnalInstagramCloneApp.swift */; };
 		3CF3C21F27A9B8BC0072B757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C21E27A9B8BC0072B757 /* ContentView.swift */; };
 		3CF3C22127A9B8BD0072B757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF3C22027A9B8BD0072B757 /* Assets.xcassets */; };
@@ -14,10 +15,11 @@
 		3CF3C22B27A9BBC10072B757 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C22A27A9BBC10072B757 /* PostModel.swift */; };
 		3CF3C22D27A9BCCA0072B757 /* PostsRessources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C22C27A9BCCA0072B757 /* PostsRessources.swift */; };
 		3CF3C22F27A9C4990072B757 /* ProfilePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C22E27A9C4990072B757 /* ProfilePictureCell.swift */; };
-		3CF3C23127A9C6060072B757 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C23027A9C6060072B757 /* StoryCell.swift */; };
+		3CF3C23527A9DE010072B757 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3C23427A9DE010072B757 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C106B6727A9EF1C007C8A67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3CF3C21927A9B8BC0072B757 /* PersonnalInstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonnalInstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF3C21C27A9B8BC0072B757 /* PersonnalInstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnalInstagramCloneApp.swift; sourceTree = "<group>"; };
 		3CF3C21E27A9B8BC0072B757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,7 +28,7 @@
 		3CF3C22A27A9BBC10072B757 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		3CF3C22C27A9BCCA0072B757 /* PostsRessources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRessources.swift; sourceTree = "<group>"; };
 		3CF3C22E27A9C4990072B757 /* ProfilePictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureCell.swift; sourceTree = "<group>"; };
-		3CF3C23027A9C6060072B757 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		3CF3C23427A9DE010072B757 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 			children = (
 				3CF3C21C27A9B8BC0072B757 /* PersonnalInstagramCloneApp.swift */,
 				3CF3C21E27A9B8BC0072B757 /* ContentView.swift */,
+				3C106B6727A9EF1C007C8A67 /* MainView.swift */,
+				3CF3C23427A9DE010072B757 /* PhotoCell.swift */,
 				3CF3C22E27A9C4990072B757 /* ProfilePictureCell.swift */,
-				3CF3C23027A9C6060072B757 /* StoryCell.swift */,
 				3CF3C22A27A9BBC10072B757 /* PostModel.swift */,
 				3CF3C22C27A9BCCA0072B757 /* PostsRessources.swift */,
 				3CF3C22027A9B8BD0072B757 /* Assets.xcassets */,
@@ -150,11 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF3C21F27A9B8BC0072B757 /* ContentView.swift in Sources */,
+				3C106B6827A9EF1C007C8A67 /* MainView.swift in Sources */,
 				3CF3C22B27A9BBC10072B757 /* PostModel.swift in Sources */,
 				3CF3C21D27A9B8BC0072B757 /* PersonnalInstagramCloneApp.swift in Sources */,
+				3CF3C23527A9DE010072B757 /* PhotoCell.swift in Sources */,
 				3CF3C22D27A9BCCA0072B757 /* PostsRessources.swift in Sources */,
 				3CF3C22F27A9C4990072B757 /* ProfilePictureCell.swift in Sources */,
-				3CF3C23127A9C6060072B757 /* StoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,12 @@ import SwiftUI
 
 struct StoryCell: View {
     let post: Post
+    var widthStory: CGFloat = 85
     var body: some View {
         ZStack {
             Circle()
                 .stroke(Color.red, lineWidth: 2.3)
-                .frame(width: 85, height: 85)
+                .frame(width: widthStory, height: widthStory)
             ProfilePictureCell(post: post)
         }
     }

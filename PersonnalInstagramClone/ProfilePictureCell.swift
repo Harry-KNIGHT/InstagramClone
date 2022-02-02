@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ProfilePictureCell: View {
     let post: Post
+    var width: CGFloat = 80
     var body: some View {
         HStack {
             Image(post.profilePicture)
                 .resizable()
                 .scaledToFit()
                 .clipShape(Circle())
-                .frame(width: 80, height: 80)
+                .frame(width: width)
+                .overlay(
+                    Circle().stroke(Color.red, style: StrokeStyle(lineWidth: 2))
+                        .frame(width: width + 5, height: width + 5)
+                )
         }
     }
 }
